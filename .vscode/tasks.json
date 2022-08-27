@@ -4,7 +4,7 @@
         {
             "type": "shell",
             "label": "g++ build active file",
-            "command": "/usr/local/bin/g++",
+            "command": "/opt/homebrew/bin/g++",
             "args": [
                 "-std=gnu++17",
                 "-g",
@@ -14,7 +14,7 @@
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "options": {
-                "cwd": "/usr/local/bin"
+                "cwd": "/opt/homebrew/bin"
             },
             "problemMatcher": [
                 "$gcc"
