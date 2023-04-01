@@ -2,17 +2,15 @@
 using namespace std;
 
 int main() {
-	int N;
+    int N;
 
-	cin >> N;
+    cin >> N;
 
-	long long Answer = 1;
+    long long Answer = 1;
 
-	for (int i = 0; i < N; i++)
-	{
-		Answer *= (N - i);
-	}
+    for (int i = 0; i < N; i++) {
+        Answer *= (N - i);
+    }
 
-	cout << Answer << endl;
-	
+    cout << Answer << endl;
 }
